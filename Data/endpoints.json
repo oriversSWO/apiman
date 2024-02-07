@@ -1,0 +1,22 @@
+{[
+  {
+    "name": "Endpoint 1",
+    "url": "https://example.com/endpoint1",
+    "description": "Description for endpoint 1",
+    "enabled": true,
+    "tags": ["tag1", "tag2"],
+    "group": "Group 1",
+    "body": "{\"property1\": \"value1\", \"property2\": \"value2\"}",
+    "response": "{\"success\": true}"
+  },
+  {
+    "name": "Endpoint 2",
+    "url": "https://example.com/endpoint2",
+    "description": "Description for endpoint 2",
+    "enabled": false,
+    "tags": ["tag3", "tag4"],
+    "group": "Group 2",
+    "body": "{\"property3\": \"value3\", \"property4\": \"value4\"}",
+    "response": "{\"success\": false, \"error\": \"Not found\"}"
+  }
+]
