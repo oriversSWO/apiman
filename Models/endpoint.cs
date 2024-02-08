@@ -10,5 +10,7 @@
         public string group { get; set; }
         public string body { get; set; }   // Almacena JSON Schema
         public string response { get; set; }  // Almacena JSON Schema
+        public Dictionary<string, string> headers { get; set; }
+        public Dictionary<string, string> parameters { get; set; }
         }
     }
